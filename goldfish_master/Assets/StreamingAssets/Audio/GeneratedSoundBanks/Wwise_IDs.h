@@ -11,10 +11,31 @@
 
 namespace AK
 {
+    namespace EVENTS
+    {
+        static const AkUniqueID PLAY_GOLDFISH_MX = 3326821738U;
+    } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace GOLDFISH_STATE
+        {
+            static const AkUniqueID GROUP = 2674025483U;
+
+            namespace STATE
+            {
+                static const AkUniqueID GOLDFISH_STATE_FISHBOWL = 3561811860U;
+                static const AkUniqueID GOLDFISH_STATE_HOUSE = 3561566830U;
+            } // namespace STATE
+        } // namespace GOLDFISH_STATE
+
+    } // namespace STATES
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
-        static const AkUniqueID TEST = 3157003241U;
+        static const AkUniqueID MX = 1685527054U;
+        static const AkUniqueID SFX = 393239870U;
     } // namespace BANKS
 
     namespace BUSSES

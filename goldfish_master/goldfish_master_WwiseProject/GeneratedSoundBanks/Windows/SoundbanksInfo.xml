@@ -1,25 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Player\Documents\New Github\Goldfish\goldfish_master\goldfish_master_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Player\Documents\New Github\Goldfish\goldfish_master\goldfish_master_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Player\Documents\New Github\Goldfish\goldfish_master\goldfish_master_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>/Users/maxime/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Documents/_VDG/VDG_190118_19Rep/Goldfish/goldfish_master/goldfish_master_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/maxime/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Documents/_VDG/VDG_190118_19Rep/Goldfish/goldfish_master/goldfish_master_WwiseProject/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/maxime/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Documents/_VDG/VDG_190118_19Rep/Goldfish/goldfish_master/goldfish_master_WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Player\Documents\New Github\Goldfish\goldfish_master\goldfish_master_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>/Users/maxime/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Documents/_VDG/VDG_190118_19Rep/Goldfish/goldfish_master/goldfish_master_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
+		<SoundBank Id="393239870" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
+		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3157003241" Language="SFX">
-			<ObjectPath>\SoundBanks\Default Work Unit\TEST</ObjectPath>
-			<ShortName>TEST</ShortName>
-			<Path>TEST.bnk</Path>
+		<SoundBank Id="1685527054" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\MX</ObjectPath>
+			<ShortName>MX</ShortName>
+			<Path>MX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3326821738" Name="Play_Goldfish_MX" ObjectPath="\Events\Default Work Unit\Play_Goldfish_MX"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="400646297" Language="SFX">
+					<ShortName>_MX\Godfish_MX_house\Godfish_MX_house.wav</ShortName>
+					<Path>SFX/_MX/Godfish_MX_house/Godfish_MX_house_4E4C89C7.wem</Path>
+				</File>
+				<File Id="694832385" Language="SFX">
+					<ShortName>_MX\Godfish_MX_fishBowl\Godfish_MX_fishBowl.wav</ShortName>
+					<Path>SFX/_MX/Godfish_MX_fishBowl/Godfish_MX_fishBowl_4E4C89C7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

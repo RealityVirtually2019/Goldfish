@@ -1,6 +1,232 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{81C72E32-A968-4E7A-8B3C-3F4753B9BF15}" SchemaVersion="89">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{81C72E32-A968-4E7A-8B3C-3F4753B9BF15}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{81C72E32-A968-4E7A-8B3C-3F4753B9BF15}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSwitchContainer Name="Goldfish_MX" ID="{E06F10B4-AEE7-4468-AE92-E2150AD8F1E7}" ShortID="43270183">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="75"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Goldfish_MX_Conversion" ID="{49F84069-2D26-4911-924D-FA1AE677DAD0}" WorkUnitID="{5CD0FEF4-D4C7-4E23-BFA1-D58B073A13CF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{78E894C8-1AF8-46F4-B4F8-25A6EFB0A400}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="Godfish_MX_fishBowl" ID="{CF7A2A58-D890-480C-AFB4-5A0CDF06EBC6}" ShortID="149995678">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CD0FEF4-D4C7-4E23-BFA1-D58B073A13CF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{78E894C8-1AF8-46F4-B4F8-25A6EFB0A400}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Godfish_MX_fishBowl" ID="{38AAC191-0767-4399-A1B7-ABC61D30F258}" ShortID="647506170">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="67200.0208333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CD0FEF4-D4C7-4E23-BFA1-D58B073A13CF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{78E894C8-1AF8-46F4-B4F8-25A6EFB0A400}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Godfish_MX_fishBowl" ID="{DDE83064-7B40-4807-BBF6-860F40BFE330}" ShortID="53585191">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{78E894C8-1AF8-46F4-B4F8-25A6EFB0A400}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Godfish_MX_fishBowl" ID="{08ED658A-5BEB-42CE-8AC0-403AD82C7456}" ShortID="694832385">
+													<Language>SFX</Language>
+													<AudioFile>_MX\Godfish_MX_fishBowl\Godfish_MX_fishBowl.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{5647624F-5501-4071-926D-1131A7892430}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{BD2752AD-7D5E-484E-BFE2-E7ACB100CC58}">
+													<ClipList>
+														<MusicClip Name="Godfish_MX_fishBowl" ID="{A1169F38-1665-4880-9FB1-AF94CB92251D}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="67200.0208333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Godfish_MX_fishBowl" ID="{08ED658A-5BEB-42CE-8AC0-403AD82C7456}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{E8CA4594-60C1-4057-9C46-61788A3B95C0}"/>
+										<MusicCue Name="Exit Cue" ID="{E2B0BBB5-2142-41E3-B833-41ABDBC77E46}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="67200.0208333333"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{3A4DE112-F706-4751-9B0B-D81019FA02E6}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{6B54236B-C139-4F65-9C35-BC25B8709D0B}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{3F14D3EC-8BDC-4163-9569-3ABABFA38A05}" ShortID="21653579"/>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Godfish_MX_house" ID="{276F3743-D412-41BC-B3B2-B439CD9FD9E0}" ShortID="1015153380">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CD0FEF4-D4C7-4E23-BFA1-D58B073A13CF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{78E894C8-1AF8-46F4-B4F8-25A6EFB0A400}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Godfish_MX_house" ID="{45DC9205-BBAF-454C-B6C3-1F93ED3F02D8}" ShortID="199313782">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="50000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CD0FEF4-D4C7-4E23-BFA1-D58B073A13CF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{78E894C8-1AF8-46F4-B4F8-25A6EFB0A400}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Godfish_MX_house" ID="{A900FC64-11D6-403B-81A1-ED1B9CDE4021}" ShortID="170252474">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{78E894C8-1AF8-46F4-B4F8-25A6EFB0A400}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Godfish_MX_house" ID="{8AA90B34-BE69-44CA-B679-CE7D1010AA27}" ShortID="400646297">
+													<Language>SFX</Language>
+													<AudioFile>_MX\Godfish_MX_house\Godfish_MX_house.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{448FB375-A5D8-4D8A-A2C5-E43ACAAB59F0}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{7B17D030-5925-4ADF-BF2B-19DF934A240C}">
+													<ClipList>
+														<MusicClip Name="Godfish_MX_house" ID="{F68D6E52-539D-447A-B566-74E789ED9D2D}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="50000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Godfish_MX_house" ID="{8AA90B34-BE69-44CA-B679-CE7D1010AA27}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{9426A598-8248-42A3-A574-7D5119965453}"/>
+										<MusicCue Name="Exit Cue" ID="{DE417E50-A434-4E7C-A85D-C27C5DB9D61E}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="50000"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{56A5F134-746B-4D55-AE00-9225AB4E40BD}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{6568EA34-A364-44F6-80F6-9B89583E9402}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{60734FF1-51F5-4189-B321-8E94B677F86C}" ShortID="430362305"/>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{7468F442-D988-404D-A14A-E30A98B86307}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{EF01E922-8437-47FB-871E-ACF03F15ABC3}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ArgumentList>
+						<ArgumentRef Name="Goldfish_state" ID="{F56CA5CC-791A-4082-BD97-E7938C5753CF}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Goldfish_state_fishBowl" ID="{DDA589F1-F170-4934-9900-6FF8DC193764}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Godfish_MX_fishBowl" ID="{CF7A2A58-D890-480C-AFB4-5A0CDF06EBC6}" WorkUnitID="{81C72E32-A968-4E7A-8B3C-3F4753B9BF15}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Goldfish_state_house" ID="{D33B95D1-ECD6-42D4-8AC3-71864A630BE1}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Godfish_MX_house" ID="{276F3743-D412-41BC-B3B2-B439CD9FD9E0}" WorkUnitID="{81C72E32-A968-4E7A-8B3C-3F4753B9BF15}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>

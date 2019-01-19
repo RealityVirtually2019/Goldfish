@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{FC3F97BD-B4B9-465F-996C-0C0DEED1EA47}" SchemaVersion="89">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{FC3F97BD-B4B9-465F-996C-0C0DEED1EA47}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{FC3F97BD-B4B9-465F-996C-0C0DEED1EA47}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Goldfish_MX" ID="{7C7CA293-474C-47FE-A26E-78072B212615}">
+					<ChildrenList>
+						<Action Name="" ID="{E5A56B4B-0453-421A-9DFE-D1DFAF155BAE}" ShortID="835999488">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Goldfish_MX" ID="{E06F10B4-AEE7-4468-AE92-E2150AD8F1E7}" WorkUnitID="{81C72E32-A968-4E7A-8B3C-3F4753B9BF15}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
