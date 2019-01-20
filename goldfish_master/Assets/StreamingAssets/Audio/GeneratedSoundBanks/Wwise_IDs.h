@@ -14,20 +14,21 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_GOLDFISH_MX = 3326821738U;
+        static const AkUniqueID PLAY_GOLDFISH_SFX_UNDERWATERAMB = 113842962U;
     } // namespace EVENTS
 
     namespace STATES
     {
-        namespace GOLDFISH_STATE
+        namespace GOLDFISH_MX_STATES
         {
-            static const AkUniqueID GROUP = 2674025483U;
+            static const AkUniqueID GROUP = 4194342316U;
 
             namespace STATE
             {
-                static const AkUniqueID GOLDFISH_STATE_FISHBOWL = 3561811860U;
-                static const AkUniqueID GOLDFISH_STATE_HOUSE = 3561566830U;
+                static const AkUniqueID GOLDFISH_MX_STATES_FISHBOWL = 446809097U;
+                static const AkUniqueID GOLDFISH_MX_STATES_HOUSE = 1687180893U;
             } // namespace STATE
-        } // namespace GOLDFISH_STATE
+        } // namespace GOLDFISH_MX_STATES
 
     } // namespace STATES
 
@@ -41,6 +42,8 @@ namespace AK
     namespace BUSSES
     {
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
+        static const AkUniqueID MX = 1685527054U;
+        static const AkUniqueID SFX = 393239870U;
     } // namespace BUSSES
 
     namespace AUDIO_DEVICES

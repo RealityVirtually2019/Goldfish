@@ -1,6 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{B245141A-92A4-4156-8B69-9FC2AC20AA76}" SchemaVersion="89">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{B245141A-92A4-4156-8B69-9FC2AC20AA76}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{B245141A-92A4-4156-8B69-9FC2AC20AA76}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Goldfish_sfx" ID="{2E6C3F24-52CA-4DA7-9AA2-93999D746F54}" ShortID="909927283">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CD0FEF4-D4C7-4E23-BFA1-D58B073A13CF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{34B9DFD4-CA03-445E-A27A-F00AF62FD07E}" WorkUnitID="{78E894C8-1AF8-46F4-B4F8-25A6EFB0A400}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Goldfish_sfx_underwaterAmb" ID="{F1183B4F-D1B2-4504-A54F-EA9E167BCAD9}" ShortID="985747676">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CD0FEF4-D4C7-4E23-BFA1-D58B073A13CF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{78E894C8-1AF8-46F4-B4F8-25A6EFB0A400}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Goldfish_sfx_underwaterAmb" ID="{0266C45E-3B04-40CC-9FBE-90C79D552A58}" ShortID="628574488">
+									<Language>SFX</Language>
+									<AudioFile>_SFX\Goldfish_sfx_underwaterAmb\Goldfish_sfx_underwaterAmb.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Goldfish_sfx_underwaterAmb" ID="{0266C45E-3B04-40CC-9FBE-90C79D552A58}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

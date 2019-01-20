@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 192175890760707352}
   m_Layer: 0
   m_Name: Bearclaw_Poly_by_Google_apBo3J2oi67
-  m_TagString: Untagged
+  m_TagString: PlayerCollision
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

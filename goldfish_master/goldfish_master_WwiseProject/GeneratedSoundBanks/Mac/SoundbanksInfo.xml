@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>/Users/maxime/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Documents/_VDG/VDG_190118_19Rep/Goldfish/goldfish_master/goldfish_master_WwiseProject/</ProjectRoot>
-		<SourceFilesRoot>/Users/maxime/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Documents/_VDG/VDG_190118_19Rep/Goldfish/goldfish_master/goldfish_master_WwiseProject/.cache/Mac/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/maxime/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Documents/_VDG/VDG_190118_19Rep/Goldfish/goldfish_master/goldfish_master_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ProjectRoot>/Users/maxime/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Documents/_VDG/VDG_190118_19Rep_02/Goldfish/goldfish_master/goldfish_master_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/maxime/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Documents/_VDG/VDG_190118_19Rep_02/Goldfish/goldfish_master/goldfish_master_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/maxime/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Documents/_VDG/VDG_190118_19Rep_02/Goldfish/goldfish_master/goldfish_master_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>/Users/maxime/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Documents/_VDG/VDG_190118_19Rep/Goldfish/goldfish_master/goldfish_master_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>/Users/maxime/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Documents/_VDG/VDG_190118_19Rep_02/Goldfish/goldfish_master/goldfish_master_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -15,6 +15,15 @@
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="113842962" Name="Play_Goldfish_sfx_underwaterAmb" ObjectPath="\Events\Default Work Unit\Play_Goldfish_sfx_underwaterAmb"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="628574488" Language="SFX">
+					<ShortName>_SFX\Goldfish_sfx_underwaterAmb\Goldfish_sfx_underwaterAmb.wav</ShortName>
+					<Path>SFX/_SFX/Goldfish_sfx_underwaterAmb/Goldfish_sfx_underwaterAmb_8956FC97.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX">
 			<ObjectPath>Init</ObjectPath>
@@ -33,9 +42,17 @@
 					<ShortName>_MX\Godfish_MX_house\Godfish_MX_house.wav</ShortName>
 					<Path>SFX/_MX/Godfish_MX_house/Godfish_MX_house_5BB4F8B7.wem</Path>
 				</File>
+				<File Id="640416915" Language="SFX">
+					<ShortName>_MX\Godfish_MX_transitions\Godfish_MX_transitionBackToHome.wav</ShortName>
+					<Path>SFX/_MX/Godfish_MX_transitions/Godfish_MX_transitionBackToHome_8956FC97.wem</Path>
+				</File>
 				<File Id="694832385" Language="SFX">
 					<ShortName>_MX\Godfish_MX_fishBowl\Godfish_MX_fishBowl.wav</ShortName>
 					<Path>SFX/_MX/Godfish_MX_fishBowl/Godfish_MX_fishBowl_5BB4F8B7.wem</Path>
+				</File>
+				<File Id="794773506" Language="SFX">
+					<ShortName>_MX\Godfish_MX_transitions\Godfish_MX_transitionToFishBowl.wav</ShortName>
+					<Path>SFX/_MX/Godfish_MX_transitions/Godfish_MX_transitionToFishBowl_8956FC97.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

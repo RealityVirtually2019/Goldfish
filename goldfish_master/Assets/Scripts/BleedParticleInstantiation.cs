@@ -4,26 +4,18 @@ using UnityEngine;
 
 public class BleedParticleInstantiation : MonoBehaviour
 {
-    public GameObject particleSystemToInstantiate;
-    private GameObject instantiatedObj;
 
 	private void OnTriggerEnter(Collider other)
 	{
-        if (other.gameObject.tag == "MainCamera")
+        if (other.gameObject.tag == "PlayerCollision")
         {
-            instantiatedObj = Instantiate(particleSystemToInstantiate, gameObject.transform);
-            instantiatedObj.GetComponent<ParticleSystem>().Play();
-            StartCoroutine(StopParticlesAfter3Seconds(instantiatedObj));
+            GameManager.instance.InstantiateParticles(gameObject);
+
         }
 
 	}
 
-    IEnumerator StopParticlesAfter3Seconds (GameObject obj)
-    {
-        yield return new WaitForSecondsRealtime(3);
-        Debug.Log("Particle system stops");
-        instantiatedObj.GetComponent<ParticleSystem>().Stop();
-    }
+
 
 
 }

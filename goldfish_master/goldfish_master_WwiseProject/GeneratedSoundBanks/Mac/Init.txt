@@ -1,12 +1,14 @@
 State Group	ID	Name			Wwise Object Path	Notes
-	2674025483	Goldfish_state			\Default Work Unit\Goldfish_state	
+	4194342316	Goldfish_mx_states			\Default Work Unit\Goldfish_mx_states	
 
 State	ID	Name	State Group			Notes
-	0	None	Goldfish_state			
-	3561566830	Goldfish_state_house	Goldfish_state			
-	3561811860	Goldfish_state_fishBowl	Goldfish_state			
+	0	None	Goldfish_mx_states			
+	446809097	Goldfish_mx_states_fishBowl	Goldfish_mx_states			
+	1687180893	Goldfish_mx_states_house	Goldfish_mx_states			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	1685527054	MX			\Default Work Unit\Master Audio Bus\MX	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Audio Devices	ID	Name	Type				Notes

@@ -5,7 +5,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance = null;
-    private ParticleSystem bleedParticles;
+
+    private GameObject bleedParticleGo;
 
 	private void Awake()
 	{
@@ -17,11 +18,24 @@ public class GameManager : MonoBehaviour
 
     private void Init ()
     {
-        bleedParticles = Resources.Load<ParticleSystem>("Particles/bleedParticles");
+        bleedParticleGo = Resources.Load<GameObject>("ParticleSystem/Flare");
     }
 
-    public void InstantiateParticles (GameObject objToInstantiate)
+    public void InstantiateParticles (GameObject playerObj)
 	{
-        
+
+        GameObject referenceToParticlesInstantiated = Instantiate(bleedParticleGo);
+        referenceToParticlesInstantiated.transform.position = playerObj.transform.position;
+        ParticleSystem bleedParticles = referenceToParticlesInstantiated.GetComponent<ParticleSystem>();
+        StartCoroutine(StopParticlesAfter3Seconds(bleedParticles));
 	}
+
+    IEnumerator StopParticlesAfter3Seconds(ParticleSystem particleSystem)
+    {
+        particleSystem.Play();
+        yield return new WaitForSecondsRealtime(3);
+        particleSystem.Stop();
+        yield return new WaitForSecondsRealtime(3);
+        Destroy(particleSystem.gameObject);
+    }
 }
