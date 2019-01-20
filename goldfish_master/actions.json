@@ -90,6 +90,10 @@
     {
       "name": "/actions/mixedreality",
       "usage": "single"
+    },
+    {
+      "name": "/actions/disabled_buttons",
+      "usage": "single"
     }
   ],
   "default_bindings": [
