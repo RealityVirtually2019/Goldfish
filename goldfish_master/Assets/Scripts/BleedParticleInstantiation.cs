@@ -24,4 +24,6 @@ public class BleedParticleInstantiation : MonoBehaviour
         Debug.Log("Particle system stops");
         instantiatedObj.GetComponent<ParticleSystem>().Stop();
     }
+
+
 }
