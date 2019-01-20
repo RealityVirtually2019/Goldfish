@@ -1,5 +1,9 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+--- !u!1 &7877476307317357699
+GameObject:
+=======
 --- !u!29 &1
 OcclusionCullingSettings:
   m_ObjectHideFlags: 0
@@ -345,6 +349,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &605927572
 PrefabInstance:
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
@@ -448,6 +453,13 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 605927572}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7877476307317357696}
+  m_Layer: 0
+  m_Name: Attachment Hands Example Transform Prefab(Clone)
+=======
 --- !u!1001 &672393573
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -652,10 +664,15 @@ GameObject:
   - component: {fileID: 796091467}
   m_Layer: 0
   m_Name: Water4AdvancedReflectionSceneCamera
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+  m_IsActive: 0
+--- !u!4 &7877476307317357696
+=======
   m_IsActive: 1
 --- !u!20 &796091467
 Camera:
@@ -913,6 +930,7 @@ MonoBehaviour:
   diffractionFlags: 0
   engineLogging: 0
 --- !u!4 &904273280
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -921,6 +939,17 @@ Transform:
   m_GameObject: {fileID: 7877476307317357699}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+  m_LocalScale: {x: 0.6588137, y: 0.65881366, z: 0.65881366}
+  m_Children:
+  - {fileID: 7877476308676668198}
+  - {fileID: 7877476307349867900}
+  - {fileID: 7877476309237645914}
+  m_Father: {fileID: 7877476307999047670}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7877476307322067310
+=======
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1220,6 +1249,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d1adb20421ed664b800c8cf3d103e70, type: 3}
 --- !u!1 &1322415621
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1252,6 +1282,9 @@ Transform:
   m_Father: {fileID: 7877476307433317911}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+--- !u!114 &7877476307322067308
+=======
 --- !u!1001 &1358757885
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1650,6 +1683,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1a2925d7da5449ecb99c16ed61d49f4, type: 3}
 --- !u!114 &3224553283531026586
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1687,6 +1721,21 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+  m_GameObject: {fileID: 7877476307325648414}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.0095, z: 0}
+  m_LocalScale: {x: -0.0053297738, y: 0.015, z: -0.0053297738}
+  m_Children: []
+  m_Father: {fileID: 7877476307782247486}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7877476307325648413
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+=======
   m_GameObject: {fileID: 3224553283531026588}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.000022873748, y: 0.000019755204, z: 0.02237165}
@@ -1846,6 +1895,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5164656071218088422, guid: a06ea7a36207a44eab189db7a6958143,
     type: 3}
   m_PrefabInstance: {fileID: 3224553283562309787}
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7877476307325648414}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
@@ -2584,6 +2634,9 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+--- !u!1 &7877476307493156977
+=======
 --- !u!1 &3224553283665719287
 GameObject:
   m_ObjectHideFlags: 0
@@ -2725,6 +2778,7 @@ Transform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3224553283687906678
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3158,6 +3212,9 @@ Transform:
   m_Father: {fileID: 7877476309411243080}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+--- !u!114 &7877476307580935705
+=======
 --- !u!1001 &3224553283727211870
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3274,6 +3331,7 @@ Transform:
   m_PrefabInstance: {fileID: 3224553283727211870}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &3224553283730648874
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3636,6 +3694,11 @@ MeshFilter:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+  m_GameObject: {fileID: 7877476307625624229}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &7877476307625624227
+=======
   m_GameObject: {fileID: 3224553283799012500}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -3750,6 +3813,7 @@ Transform:
   m_PrefabInstance: {fileID: 3224553283799355253}
   m_PrefabAsset: {fileID: 0}
 --- !u!23 &3224553283801046822
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4074,6 +4138,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+  m_GameObject: {fileID: 7877476307674843916}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.0095, z: 0}
+  m_LocalScale: {x: -0.0053297738, y: 0.015, z: -0.0053297738}
+  m_Children: []
+  m_Father: {fileID: 7877476307906213199}
+=======
   m_GameObject: {fileID: 3224553283879856042}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.0000019781291, y: 0.000019274607, z: 0.015814947}
@@ -4081,6 +4153,7 @@ Transform:
   m_Children:
   - {fileID: 3224553285289560016}
   m_Father: {fileID: 3224553284022083768}
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7877476307674843915
@@ -4204,6 +4277,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d12011a4b27c58f4f8969e87c61ab8d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+  attachmentHand: {fileID: 7877476309411243081}
+  attachmentPoint: 524288
+--- !u!1 &7877476307742944994
+=======
   _roomScaleHeightOffset: 1.6
   recenterOnUserPresence: 1
   recenterOnStart: 1
@@ -4231,6 +4309,7 @@ Transform:
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3224553283890740683
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4287,7 +4366,11 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+  - {fileID: 2100000, guid: 67b66d4eb50ed684d94eb00bc04709d2, type: 2}
+=======
   - {fileID: 2100000, guid: 87c316b602156405d92e616621658222, type: 3}
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4307,6 +4390,9 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+--- !u!1 &7877476307743853321
+=======
 --- !u!4 &3224553283922300685
 Transform:
   m_ObjectHideFlags: 0
@@ -4322,6 +4408,7 @@ Transform:
   m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &3224553283922300686
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4339,13 +4426,37 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+--- !u!4 &7877476307743853430
+Transform:
+=======
 --- !u!102 &3224553283922300687
 TextMesh:
   serializedVersion: 3
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+  m_GameObject: {fileID: 7877476307743853321}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.0095, z: 0}
+  m_LocalScale: {x: -0.0053297738, y: 0.015, z: -0.0053297738}
+  m_Children: []
+  m_Father: {fileID: 7877476308023737466}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7877476307743853428
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7877476307743853321}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &7877476307743853431
+=======
   m_GameObject: {fileID: 3224553283922300686}
   m_Text: 'A Ship in harbor is safe,
 
@@ -4364,6 +4475,7 @@ TextMesh:
     serializedVersion: 2
     rgba: 4294967295
 --- !u!23 &3224553283926343808
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4663,6 +4775,13 @@ Transform:
   m_LocalPosition: {x: 0.000000007450581, y: -0, z: 0.0104}
   m_LocalScale: {x: -0.007102402, y: 0.015, z: -0.0091024}
   m_Children: []
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+  m_Father: {fileID: 7877476308565614572}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90.00001, y: 0, z: 0}
+--- !u!33 &7877476307777149631
+MeshFilter:
+=======
   m_Father: {fileID: 3224553285282217889}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4746,10 +4865,16 @@ GameObject:
   m_IsActive: 1
 --- !u!4 &3224553283966612311
 Transform:
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+  m_GameObject: {fileID: 7877476307777149616}
+  m_Mesh: {fileID: 4300000, guid: 60f028e7a1b594a4bac0ffeaea1dec3c, type: 3}
+--- !u!23 &7877476307777149630
+=======
   m_GameObject: {fileID: 3224553283966612310}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.000021307735, y: -0.000027276561, z: 0.015967643}
@@ -4759,6 +4884,7 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &3224553283974943618
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4938,6 +5064,9 @@ Transform:
   m_Father: {fileID: 7877476308643234648}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90.00001, y: 0, z: 0}
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+--- !u!33 &7877476307794683838
+=======
 --- !u!1001 &3224553283992616569
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5076,11 +5205,18 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!33 &3224553284001778446
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+  m_GameObject: {fileID: 7877476307794683827}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!137 &7877476307794683839
+SkinnedMeshRenderer:
+=======
   m_GameObject: {fileID: 3224553284001778451}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &3224553284001778447
@@ -5112,6 +5248,7 @@ BoxCollider:
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &3224553284001778449
 MeshRenderer:
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5127,7 +5264,11 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+  - {fileID: 2100000, guid: 8d3bc7b69fe1fa44f9dd5aa3353832cd, type: 2}
+=======
   - {fileID: 2100000, guid: ee1e64946a501435280fe71579e5243b, type: 2}
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5147,6 +5288,22 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+  m_Bones: []
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 0}
+  m_AABB:
+    m_Center: {x: 0, y: 0.0000019073486, z: 0.0000076293945}
+    m_Extent: {x: 0.58551306, y: 1.6384488, z: 15.833228}
+  m_DirtyAABB: 0
+--- !u!183 &7877476307794683825
+Cloth:
+=======
 --- !u!1 &3224553284001778451
 GameObject:
   m_ObjectHideFlags: 0
@@ -5185,10 +5342,20 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3224553284007697211
 GameObject:
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+  m_GameObject: {fileID: 7877476307794683827}
+  m_Enabled: 1
+  m_StretchingStiffness: 0.7
+  m_BendingStiffness: 0
+  m_UseTethers: 0
+  m_UseGravity: 0
+  m_Damping: 0.3
+=======
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3224553284007697208}
@@ -7884,6 +8051,7 @@ Cloth:
   m_UseTethers: 0
   m_UseGravity: 0
   m_Damping: 0.6
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
   m_ExternalAcceleration: {x: 0, y: 0, z: 0}
   m_RandomAcceleration: {x: 0, y: 0, z: 0}
   m_WorldVelocityScale: 0.5
@@ -7896,6 +8064,97 @@ Cloth:
   m_SleepThreshold: 0.1
   m_Coefficients:
   - maxDistance: 1
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 3.4028235e+38
+    collisionSphereDistance: 3.4028235e+38
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+=======
     collisionSphereDistance: 3.4028235e+38
   - maxDistance: 1
     collisionSphereDistance: 3.4028235e+38
@@ -10219,6 +10478,7 @@ Cloth:
     collisionSphereDistance: 3.4028235e+38
   - maxDistance: 1
     collisionSphereDistance: 3.4028235e+38
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
   - maxDistance: 3.4028235e+38
     collisionSphereDistance: 3.4028235e+38
   - maxDistance: 3.4028235e+38
@@ -10292,6 +10552,55 @@ Cloth:
   - maxDistance: 3.4028235e+38
     collisionSphereDistance: 3.4028235e+38
   - maxDistance: 1
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 3.4028235e+38
+    collisionSphereDistance: 3.4028235e+38
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 3.4028235e+38
+    collisionSphereDistance: 3.4028235e+38
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 3.4028235e+38
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+=======
     collisionSphereDistance: 3.4028235e+38
   - maxDistance: 1
     collisionSphereDistance: 3.4028235e+38
@@ -10339,6 +10648,7 @@ Cloth:
     collisionSphereDistance: 3.4028235e+38
   - maxDistance: 1
     collisionSphereDistance: 3.4028235e+38
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
   - maxDistance: 1
     collisionSphereDistance: 3.4028235e+38
   - maxDistance: 3.4028235e+38
@@ -10421,7 +10731,78 @@ Cloth:
     collisionSphereDistance: 3.4028235e+38
   - maxDistance: 3.4028235e+38
     collisionSphereDistance: 3.4028235e+38
+  - maxDistance: 1
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
   - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+=======
     collisionSphereDistance: 3.4028235e+38
   - maxDistance: 1
     collisionSphereDistance: 3.4028235e+38
@@ -10491,6 +10872,7 @@ Cloth:
     collisionSphereDistance: 3.4028235e+38
   - maxDistance: 3.4028235e+38
     collisionSphereDistance: 3.4028235e+38
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
   - maxDistance: 3.4028235e+38
     collisionSphereDistance: 3.4028235e+38
   - maxDistance: 3.4028235e+38
@@ -10544,7 +10926,11 @@ Cloth:
   - maxDistance: 3.4028235e+38
     collisionSphereDistance: 3.4028235e+38
   - maxDistance: 1
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+    collisionSphereDistance: 0.4
+=======
     collisionSphereDistance: 3.4028235e+38
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
   - maxDistance: 3.4028235e+38
     collisionSphereDistance: 3.4028235e+38
   - maxDistance: 3.4028235e+38
@@ -10563,7 +10949,30 @@ Cloth:
     collisionSphereDistance: 3.4028235e+38
   - maxDistance: 1
     collisionSphereDistance: 3.4028235e+38
+  - maxDistance: 1
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
   - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+=======
     collisionSphereDistance: 3.4028235e+38
   - maxDistance: 1
     collisionSphereDistance: 3.4028235e+38
@@ -10585,6 +10994,7 @@ Cloth:
     collisionSphereDistance: 3.4028235e+38
   - maxDistance: 1
     collisionSphereDistance: 3.4028235e+38
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
   - maxDistance: 1
     collisionSphereDistance: 3.4028235e+38
   - maxDistance: 1
@@ -10732,7 +11142,11 @@ Cloth:
   - maxDistance: 3.4028235e+38
     collisionSphereDistance: 3.4028235e+38
   - maxDistance: 1
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+    collisionSphereDistance: 0.4
+=======
     collisionSphereDistance: 3.4028235e+38
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
   - maxDistance: 3.4028235e+38
     collisionSphereDistance: 3.4028235e+38
   - maxDistance: 3.4028235e+38
@@ -10740,7 +11154,11 @@ Cloth:
   - maxDistance: 3.4028235e+38
     collisionSphereDistance: 3.4028235e+38
   - maxDistance: 1
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+    collisionSphereDistance: 0.4
+=======
     collisionSphereDistance: 3.4028235e+38
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
   - maxDistance: 3.4028235e+38
     collisionSphereDistance: 3.4028235e+38
   - maxDistance: 3.4028235e+38
@@ -10756,7 +11174,11 @@ Cloth:
   - maxDistance: 3.4028235e+38
     collisionSphereDistance: 3.4028235e+38
   - maxDistance: 1
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+    collisionSphereDistance: 0.4
+=======
     collisionSphereDistance: 3.4028235e+38
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
   - maxDistance: 3.4028235e+38
     collisionSphereDistance: 3.4028235e+38
   - maxDistance: 3.4028235e+38
@@ -10789,7 +11211,184 @@ Cloth:
     collisionSphereDistance: 3.4028235e+38
   - maxDistance: 1
     collisionSphereDistance: 3.4028235e+38
+  - maxDistance: 1
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
+  - maxDistance: 1
+    collisionSphereDistance: 0.4
   - maxDistance: 1
+    collisionSphereDistance: 0.4
+=======
     collisionSphereDistance: 3.4028235e+38
   - maxDistance: 1
     collisionSphereDistance: 3.4028235e+38
@@ -10965,6 +11564,7 @@ Cloth:
     collisionSphereDistance: 3.4028235e+38
   - maxDistance: 1
     collisionSphereDistance: 3.4028235e+38
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
   m_CapsuleColliders:
   - {fileID: 0}
   m_SphereColliders: []
@@ -10977,6 +11577,12 @@ Cloth:
   - {x: 0.5, y: 0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  m_VirtualParticleIndices: 
+--- !u!1 &7877476307800023520
+=======
   m_VirtualParticleIndices: 
 --- !u!1 &3224553284451586343
 GameObject:
@@ -14434,6 +15040,7 @@ MeshFilter:
   m_GameObject: {fileID: 3224553284842117640}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &3224553284842117640
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14465,6 +15072,9 @@ Transform:
   m_Father: {fileID: 7877476308189572339}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+--- !u!33 &7877476307800023535
+=======
 --- !u!1001 &3224553284842936704
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14700,6 +15310,7 @@ Transform:
   m_PrefabInstance: {fileID: 3224553284848246414}
   m_PrefabAsset: {fileID: 0}
 --- !u!33 &3224553284851800336
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14762,6 +15373,9 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+--- !u!4 &7877476307824577517
+=======
 --- !u!1001 &3224553284870711354
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14872,6 +15486,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d1adb20421ed664b800c8cf3d103e70, type: 3}
 --- !u!4 &3224553284870711355 stripped
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14948,6 +15563,9 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+--- !u!4 &7877476307847026642
+=======
 --- !u!1001 &3224553284884310649
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15047,6 +15665,7 @@ MeshFilter:
   m_GameObject: {fileID: 3224553284885081543}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &3224553284885081540
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15422,6 +16041,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+  m_GameObject: {fileID: 7877476307892768020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d12011a4b27c58f4f8969e87c61ab8d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attachmentHand: {fileID: 7877476309411243081}
+  attachmentPoint: 512
+--- !u!1 &7877476307901970647
+=======
   m_GameObject: {fileID: 3224553284945837964}
   m_LocalRotation: {x: -0.6166827, y: -0.057710472, z: 0.06138118, w: 0.7826904}
   m_LocalPosition: {x: 0.05682373, y: 0.012775421, z: 0.23956299}
@@ -15433,6 +16063,7 @@ MonoBehaviour:
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3224553284945837964
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15673,7 +16304,11 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+  m_PreserveUVs: 1
+=======
   m_PreserveUVs: 0
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 0
@@ -15685,6 +16320,9 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+--- !u!1 &7877476307981324571
+=======
 --- !u!1 &3224553284960917571
 GameObject:
   m_ObjectHideFlags: 0
@@ -15741,6 +16379,7 @@ MonoBehaviour:
   attachmentHand: {fileID: 3224553283705498253}
   attachmentPoint: 65536
 --- !u!1 &3224553284969519774
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15764,6 +16403,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+  m_GameObject: {fileID: 7877476307981324571}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.0095, z: 0}
+  m_LocalScale: {x: -0.0053297738, y: 0.015, z: -0.0053297738}
+  m_Children: []
+  m_Father: {fileID: 7877476307776798372}
+=======
   m_GameObject: {fileID: 3224553284969519774}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.00000004377219, y: 0.0000037103857, z: 0.025651827}
@@ -15772,6 +16419,7 @@ Transform:
   - {fileID: 3224553285671608376}
   - {fileID: 3224553285244772022}
   m_Father: {fileID: 3224553285113248659}
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7877476307981324550
@@ -17703,6 +18351,9 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+--- !u!1 &7877476308125238666
+=======
   serializedVersion: 2
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
@@ -17716,6 +18367,7 @@ MeshRenderer:
     m_Extent: {x: 0.70590603, y: 1.332662, z: 18.209301}
   m_DirtyAABB: 0
 --- !u!1 &3224553284978821214
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -17830,6 +18482,10 @@ Transform:
 --- !u!114 &7877476308158322169
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+=======
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 7729021838687237217}
@@ -17901,6 +18557,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 2d93177b9da3e0448bbe68b862e9db48,
     type: 3}
   m_PrefabInstance: {fileID: 3224553284993673546}
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7877476308158322173}
   m_Enabled: 1
@@ -17912,6 +18569,10 @@ Transform:
 --- !u!114 &7877476308158322168
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+=======
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 7729021838687237217}
@@ -17987,6 +18648,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 60f028e7a1b594a4bac0ffeaea1dec3c,
     type: 3}
   m_PrefabInstance: {fileID: 3224553285009261866}
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7877476308158322173}
   m_Enabled: 1
@@ -18446,6 +19108,9 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+--- !u!4 &7877476308289640333
+=======
 --- !u!1001 &3224553285077445370
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18540,6 +19205,7 @@ MeshFilter:
   m_GameObject: {fileID: 3224553285082393389}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &3224553285082393386
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -18598,6 +19264,9 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+--- !u!1 &7877476308299075751
+=======
 --- !u!1 &3224553285082393389
 GameObject:
   m_ObjectHideFlags: 0
@@ -18801,6 +19470,7 @@ Transform:
   m_PrefabInstance: {fileID: 3224553285095302181}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &3224553285106331364
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -18870,6 +19540,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+  m_GameObject: {fileID: 7877476308299396105}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.0095, z: 0}
+  m_LocalScale: {x: -0.0053297738, y: 0.015, z: -0.0053297738}
+  m_Children: []
+  m_Father: {fileID: 7877476308652646447}
+=======
   m_GameObject: {fileID: 3224553285113248658}
   m_LocalRotation: {x: -0, y: -0, z: -0.0000000037252903, w: 1}
   m_LocalPosition: {x: 0.0000144690275, y: 0.000011771917, z: 0.041369244}
@@ -18879,6 +19557,7 @@ Transform:
   - {fileID: 3224553284969519775}
   - {fileID: 3224553284978821215}
   m_Father: {fileID: 3224553283957884558}
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7877476308299396212
@@ -19675,6 +20354,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+  m_GameObject: {fileID: 7877476308444507923}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.313226e-10, y: 0, z: 0.01729993}
+  m_LocalScale: {x: 1, y: 1.000002, z: 1.0000017}
+  m_Children:
+  - {fileID: 7877476308013931551}
+  m_Father: {fileID: 7877476308164542334}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7877476308444507920
+MonoBehaviour:
+=======
   m_GameObject: {fileID: 3224553285205762069}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 67.6, y: 149.6, z: -314.2}
@@ -19698,6 +20390,7 @@ BoxCollider:
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &3224553285205762067
 MeshRenderer:
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -19819,6 +20512,9 @@ Transform:
   m_Father: {fileID: 7877476309353216648}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90.00001, y: 0, z: 0}
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+--- !u!33 &7877476308491223557
+=======
 --- !u!114 &3224553285220187492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20024,11 +20720,17 @@ Transform:
   m_PrefabInstance: {fileID: 3224553285231831257}
   m_PrefabAsset: {fileID: 0}
 --- !u!33 &3224553285231958756
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+  m_GameObject: {fileID: 7877476308491223558}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &7877476308491223556
+=======
   m_GameObject: {fileID: 3224553285231958761}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &3224553285231958757
@@ -20060,6 +20762,7 @@ MeshCollider:
   m_CookingOptions: 14
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &3224553285231958759
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20243,6 +20946,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+  m_GameObject: {fileID: 7877476308513831268}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.0095, z: 0}
+  m_LocalScale: {x: -0.0053297738, y: 0.015, z: -0.0053297738}
+  m_Children: []
+  m_Father: {fileID: 7877476308078071271}
+=======
   m_GameObject: {fileID: 3224553285244772024}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.000024050474, y: 0.0000022053675, z: 0.017293487}
@@ -20250,6 +20961,7 @@ Transform:
   m_Children:
   - {fileID: 3224553285106331365}
   m_Father: {fileID: 3224553284969519775}
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7877476308513831267
@@ -20268,6 +20980,38 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7877476308513831268}
   m_Enabled: 1
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 81f6d387b9d5c994d9e291af97c84648, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &7877476308514306786
+=======
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d12011a4b27c58f4f8969e87c61ab8d3, type: 3}
   m_Name: 
@@ -20354,6 +21098,7 @@ Transform:
   m_PrefabInstance: {fileID: 3224553285255795780}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &3224553285282217888
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -21615,6 +22360,9 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+--- !u!4 &7877476308596457132
+=======
 --- !u!4 &3224553285319084399
 Transform:
   m_ObjectHideFlags: 0
@@ -21731,6 +22479,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _attachmentPoints: 4194302
 --- !u!4 &3224553285344046612
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -21788,6 +22537,12 @@ Transform:
   m_LocalPosition: {x: 0, y: 0.0095, z: 0}
   m_LocalScale: {x: -0.0053297738, y: 0.015, z: -0.0053297738}
   m_Children: []
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+  m_Father: {fileID: 7877476308938359420}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7877476308605931500
+=======
   m_Father: {fileID: 7729021838687237217}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 2.444, y: 56.139004, z: 125.366005}
@@ -21809,6 +22564,7 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!33 &3224553285377629716
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -21918,6 +22674,9 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+--- !u!4 &7877476308628301751
+=======
 --- !u!1001 &3224553285394523560
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21992,6 +22751,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60f028e7a1b594a4bac0ffeaea1dec3c, type: 3}
 --- !u!4 &3224553285394523561 stripped
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -22339,10 +23099,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+  m_GameObject: {fileID: 7877476308664968971}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.6588137, y: 0.65881366, z: 0.65881366}
+=======
   m_GameObject: {fileID: 3224553285465224612}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.000021307727, y: -0.000027269023, z: 0.01596761}
   m_LocalScale: {x: 1, y: 1.0000019, z: 1.0000011}
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
   m_Children:
   - {fileID: 7877476308740099067}
   - {fileID: 7877476308232054622}
@@ -27755,6 +28522,11 @@ SkinnedMeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   serializedVersion: 2
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+=======
   m_Modification:
     m_TransformParent: {fileID: 7729021838687237217}
     m_Modifications:
@@ -27853,6 +28625,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3224553285539862552}
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
   m_Bones: []
   m_BlendShapeWeights: []
@@ -28893,13 +29666,30 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+  m_IsActive: 1
+--- !u!4 &7877476309384572524
+Transform:
+=======
   m_IsActive: 0
 --- !u!81 &3224553285564632721
 AudioListener:
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+  m_GameObject: {fileID: 7877476309384572527}
+  m_LocalRotation: {x: -0, y: -0, z: -0.70710677, w: 0.7071068}
+  m_LocalPosition: {x: 0.0091, y: 0, z: 0}
+  m_LocalScale: {x: -0.0053267055, y: 0.015, z: -0.0053267055}
+  m_Children: []
+  m_Father: {fileID: 7877476309322976747}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90.00001}
+--- !u!33 &7877476309384572522
+=======
   m_GameObject: {fileID: 3224553285564632720}
   m_Enabled: 1
 --- !u!1001 &3224553285576625643
@@ -28982,6 +29772,7 @@ Transform:
   m_PrefabInstance: {fileID: 3224553285576625643}
   m_PrefabAsset: {fileID: 0}
 --- !u!33 &3224553285583539108
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -29044,6 +29835,9 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+--- !u!4 &7877476309387865646
+=======
 --- !u!1001 &3224553285590380837
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29322,6 +30116,7 @@ MeshFilter:
   m_GameObject: {fileID: 3224553285607290247}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &3224553285607290244
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -29450,6 +30245,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+  m_GameObject: {fileID: 7877476309397722917}
+  m_LocalRotation: {x: 0.7071065, y: -0, z: -0, w: 0.7071071}
+  m_LocalPosition: {x: 0.000000007450581, y: -0, z: 0.0104}
+  m_LocalScale: {x: -0.005102402, y: 0.015, z: -0.0051024}
+  m_Children: []
+  m_Father: {fileID: 7877476308104838412}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90.00001, y: 0, z: 0}
+--- !u!33 &7877476309397722912
+MeshFilter:
+=======
   m_GameObject: {fileID: 3224553285623931737}
   m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
   m_LocalPosition: {x: -86.1, y: 146.3, z: -190.02374}
@@ -29460,6 +30267,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
 --- !u!65 &3224553285623931734
 BoxCollider:
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -30664,6 +31472,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD:goldfish_master/Assets/Prefabs/Attachment Hands.prefab
+=======
 --- !u!33 &3224553285667278553
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -30825,3 +31635,4 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> origin/sceneUpdate:goldfish_master/Assets/Scenes/NewScene.unity
