@@ -7,6 +7,7 @@ public class BleedParticleInstantiation : MonoBehaviour
 
 	private void OnTriggerEnter(Collider other)
 	{
+        Debug.Log("Triggered");
         if (other.gameObject.tag == "PlayerCollision")
         {
             GameManager.instance.InstantiateParticles(gameObject);
