@@ -3,5 +3,7 @@ Event	ID	Name			Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	400646297	Godfish_MX_house	Y:\Documents\_VDG\VDG_190118_19Rep\Goldfish\goldfish_master\goldfish_master_WwiseProject\.cache\Windows\SFX\_MX\Godfish_MX_house\Godfish_MX_house_4E4C89C7.wem		\Interactive Music Hierarchy\Default Work Unit\Goldfish_MX\Godfish_MX_house\Godfish_MX_house\Godfish_MX_house		606095
+	681308367	Godfish_MX_transitionToFishBowl	Y:\Documents\_VDG\VDG_190118_19Rep\Goldfish\goldfish_master\goldfish_master_WwiseProject\.cache\Windows\SFX\_MX\Godfish_MX_transitions\Godfish_MX_transitionToFishBowl_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Godfish_MX_transitions\Godfish_MX_transitionToFishBowl\Godfish_MX_transitionToFishBowl		1536068
 	694832385	Godfish_MX_fishBowl	Y:\Documents\_VDG\VDG_190118_19Rep\Goldfish\goldfish_master\goldfish_master_WwiseProject\.cache\Windows\SFX\_MX\Godfish_MX_fishBowl\Godfish_MX_fishBowl_4E4C89C7.wem		\Interactive Music Hierarchy\Default Work Unit\Goldfish_MX\Godfish_MX_fishBowl\Godfish_MX_fishBowl\Godfish_MX_fishBowl		1126415
+	746675269	Godfish_MX_transitionBackToHome	Y:\Documents\_VDG\VDG_190118_19Rep\Goldfish\goldfish_master\goldfish_master_WwiseProject\.cache\Windows\SFX\_MX\Godfish_MX_transitions\Godfish_MX_transitionBackToHome_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Godfish_MX_transitions\Godfish_MX_transitionBackToHome\Godfish_MX_transitionBackToHome		1843268
 

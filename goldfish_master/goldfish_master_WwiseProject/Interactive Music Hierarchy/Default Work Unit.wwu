@@ -17,6 +17,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<MusicPlaylistContainer Name="Godfish_MX_fishBowl" ID="{CF7A2A58-D890-480C-AFB4-5A0CDF06EBC6}" ShortID="149995678">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CD0FEF4-D4C7-4E23-BFA1-D58B073A13CF}"/>
@@ -243,6 +250,77 @@
 										</DestinationFadeIn>
 									</TransitionInfo>
 								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{C6E43C0F-39CB-4665-817C-9161960C4B70}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="EnableTransitionFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Godfish_MX_house" ID="{276F3743-D412-41BC-B3B2-B439CD9FD9E0}" WorkUnitID="{81C72E32-A968-4E7A-8B3C-3F4753B9BF15}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Godfish_MX_fishBowl" ID="{CF7A2A58-D890-480C-AFB4-5A0CDF06EBC6}" WorkUnitID="{81C72E32-A968-4E7A-8B3C-3F4753B9BF15}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<TransitionObjectRef Name="Godfish_MX_transitionBackToHome" ID="{194C6ACD-A001-47FF-A873-41020107E11C}" WorkUnitID="{81C72E32-A968-4E7A-8B3C-3F4753B9BF15}"/>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{8037D9BE-56C9-465B-A04D-DBF56A148146}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="0"/>
+													<Property Name="FadeOffset" Type="Real64" Value="2"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<TransitionFadeOut>
+											<MusicFade Name="Transition Fade-out" ID="{3D50526F-8897-454E-BE05-98C4EE0A2D73}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="0"/>
+													<Property Name="FadeOffset" Type="Real64" Value="3"/>
+													<Property Name="FadeTime" Type="Real64" Value="3"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</TransitionFadeOut>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{50B99CD6-48E6-4B06-B1E4-9ED23671680B}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Godfish_MX_fishBowl" ID="{CF7A2A58-D890-480C-AFB4-5A0CDF06EBC6}" WorkUnitID="{81C72E32-A968-4E7A-8B3C-3F4753B9BF15}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Godfish_MX_house" ID="{276F3743-D412-41BC-B3B2-B439CD9FD9E0}" WorkUnitID="{81C72E32-A968-4E7A-8B3C-3F4753B9BF15}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<TransitionObjectRef Name="Godfish_MX_transitionToFishBowl" ID="{59F48A49-7CE2-4C54-BA69-13553F233357}" WorkUnitID="{81C72E32-A968-4E7A-8B3C-3F4753B9BF15}"/>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{4AB5C593-8F0A-485C-9FD8-7E48D3474BC3}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="0"/>
+													<Property Name="FadeOffset" Type="Real64" Value="2"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+									</TransitionInfo>
+								</MusicTransition>
 							</ChildrenList>
 							<TransitionInfo/>
 						</MusicTransition>
@@ -269,6 +347,140 @@
 						</Entry>
 					</EntryList>
 				</MusicSwitchContainer>
+				<Folder Name="Godfish_MX_transitions" ID="{9DEF89EF-CEF2-42AA-B830-EE3C97A2F438}" ShortID="3353641">
+					<ChildrenList>
+						<MusicSegment Name="Godfish_MX_transitionBackToHome" ID="{194C6ACD-A001-47FF-A873-41020107E11C}" ShortID="954864219">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="9600.02083333333"/>
+								<Property Name="Tempo" Type="Real64" Value="75"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CD0FEF4-D4C7-4E23-BFA1-D58B073A13CF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{78E894C8-1AF8-46F4-B4F8-25A6EFB0A400}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Godfish_MX_transitionBackToHome" ID="{76D1E37E-F010-49CE-A048-273075D931EF}" ShortID="65366517">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{78E894C8-1AF8-46F4-B4F8-25A6EFB0A400}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Godfish_MX_transitionBackToHome" ID="{1D5D5595-5F15-40C9-930E-C35BD3BCC6EF}" ShortID="746675269">
+											<Language>SFX</Language>
+											<AudioFile>_MX\Godfish_MX_transitions\Godfish_MX_transitionBackToHome.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{B17D431A-E7B0-47FA-A0ED-8E5B737E20C3}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{784CA448-E52C-4530-8BBA-CFAEA0007376}">
+											<ClipList>
+												<MusicClip Name="Godfish_MX_transitionBackToHome" ID="{39379A0D-EC89-4F59-923A-BCC315D1FCE6}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="9600.02083333333"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Godfish_MX_transitionBackToHome" ID="{1D5D5595-5F15-40C9-930E-C35BD3BCC6EF}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{F1754031-2989-407A-B7FC-ABF59E6ED16E}"/>
+								<MusicCue Name="Exit Cue" ID="{4B2BF638-E99B-41EE-BDC2-1FED52238C67}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="3200"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Godfish_MX_transitionToFishBowl" ID="{59F48A49-7CE2-4C54-BA69-13553F233357}" ShortID="970113283">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="8000.02083333333"/>
+								<Property Name="Tempo" Type="Real64" Value="75"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CD0FEF4-D4C7-4E23-BFA1-D58B073A13CF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{78E894C8-1AF8-46F4-B4F8-25A6EFB0A400}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Godfish_MX_transitionToFishBowl" ID="{718536A4-DE5D-45AD-8050-53DD275BD0E2}" ShortID="290624414">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{78E894C8-1AF8-46F4-B4F8-25A6EFB0A400}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Godfish_MX_transitionToFishBowl" ID="{EF2ADCD9-586B-4DFC-849D-A9C5D749C822}" ShortID="681308367">
+											<Language>SFX</Language>
+											<AudioFile>_MX\Godfish_MX_transitions\Godfish_MX_transitionToFishBowl.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{0484A571-5B51-48CA-AD54-D2C19B3A99BC}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{E3713C05-6A8E-4D78-8B49-65F8C1F01089}">
+											<ClipList>
+												<MusicClip Name="Godfish_MX_transitionToFishBowl" ID="{A06F3B6B-0344-4966-9A50-A075E09FBDE8}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="8000.02083333333"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="2833.53748524203"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Godfish_MX_transitionToFishBowl" ID="{EF2ADCD9-586B-4DFC-849D-A9C5D749C822}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{4B5E27D4-4BF4-4A13-B72F-13270F1DE924}"/>
+								<MusicCue Name="Exit Cue" ID="{FF002703-0D5B-47E1-92AE-8E69FB7D2035}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="3200"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>
