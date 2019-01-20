@@ -19,6 +19,7 @@ public class AudioManager : MonoBehaviour {
 	{
         AkSoundEngine.LoadBank("MX", AkSoundEngine.AK_DEFAULT_POOL_ID, out bankID);
         AkSoundEngine.LoadBank("SFX", AkSoundEngine.AK_DEFAULT_POOL_ID, out bankID);
+        Debug.Log("audio Triggered");
         StartMusic();
         StartAmbiance();
         AkSoundEngine.RenderAudio();

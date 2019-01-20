@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public List<GameObject> claws = new List<GameObject>();
     public static GameManager instance = null;
 
     private GameObject bleedParticleGo;
@@ -19,6 +20,7 @@ public class GameManager : MonoBehaviour
     private void Init ()
     {
         bleedParticleGo = Resources.Load<GameObject>("ParticleSystem/Flare");
+        StartCoroutine(GameDelay());
     }
 
     public void InstantiateParticles (GameObject playerObj)
@@ -38,4 +40,26 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSecondsRealtime(3);
         Destroy(particleSystem.gameObject);
     }
+
+    public void AddClaw (GameObject claw)
+    {
+        claws.Add(claw);
+    }
+
+    IEnumerator GameDelay ()
+    {
+        yield return new WaitForSecondsRealtime(15);
+        AudioManager.instance.ChangeStateToFishbowl();
+        ShowClaws();
+
+    }
+
+    private void ShowClaws ()
+    {
+        foreach (GameObject i in claws)
+        {
+            i.GetComponent<MeshRenderer>().enabled = true;
+        }
+    }
+
 }

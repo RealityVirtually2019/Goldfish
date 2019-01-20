@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{5EA5EFCF-EA3B-466E-810C-1E4045FAB39B}" SchemaVersion="89">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{5EA5EFCF-EA3B-466E-810C-1E4045FAB39B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{5EA5EFCF-EA3B-466E-810C-1E4045FAB39B}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="TESt" ID="{5801B911-6A77-4EE4-9C67-37EA9BC34693}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Goldfish_MX" ID="{7C7CA293-474C-47FE-A26E-78072B212615}" WorkUnitID="{FC3F97BD-B4B9-465F-996C-0C0DEED1EA47}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Goldfish_mx_states_fishBowl" ID="{DDA589F1-F170-4934-9900-6FF8DC193764}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

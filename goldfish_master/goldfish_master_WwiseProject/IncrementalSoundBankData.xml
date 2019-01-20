@@ -3,30 +3,30 @@
 	<Platform GUID="{A0284B18-3C19-4EAB-A0E3-74257133DC8E}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Init" Hash="3027713952" Timestamp="1547993080"/>
-				<File Name="MX" Hash="1879285843" Timestamp="1547993080"/>
-				<File Name="SFX" Hash="239254065" Timestamp="1547992964"/>
+				<File Name="Init" Hash="3913576492" Timestamp="1548006905"/>
+				<File Name="MX" Hash="744722951" Timestamp="1548005859"/>
+				<File Name="SFX" Hash="2004512597" Timestamp="1548005859"/>
 				<File Name="TEST" Hash="608447959" Timestamp="1547913998"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1032190300" Timestamp="1547993080"/>
+				<File Name="" Hash="3288388656" Timestamp="1548006905"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{738A87BA-D373-4F1A-8D8F-8AF30A790506}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Init" Hash="337727630" Timestamp="1547993080"/>
-				<File Name="MX" Hash="330314991" Timestamp="1547993080"/>
-				<File Name="SFX" Hash="239254065" Timestamp="1547992966"/>
+				<File Name="Init" Hash="2570336018" Timestamp="1548006905"/>
+				<File Name="MX" Hash="3351451384" Timestamp="1548005860"/>
+				<File Name="SFX" Hash="2004512597" Timestamp="1548005860"/>
 				<File Name="TEST" Hash="608447959" Timestamp="1547913998"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1467732342" Timestamp="1547993080"/>
+				<File Name="" Hash="1579778422" Timestamp="1548006905"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
