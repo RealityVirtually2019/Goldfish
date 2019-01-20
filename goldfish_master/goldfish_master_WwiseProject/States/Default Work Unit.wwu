@@ -3,11 +3,11 @@
 	<States>
 		<WorkUnit Name="Default Work Unit" ID="{164DBF37-BDB3-43ED-AB6A-479221F38DEE}" PersistMode="Standalone">
 			<ChildrenList>
-				<StateGroup Name="Goldfish_state" ID="{F56CA5CC-791A-4082-BD97-E7938C5753CF}">
+				<StateGroup Name="Goldfish_mx_states" ID="{F56CA5CC-791A-4082-BD97-E7938C5753CF}">
 					<ChildrenList>
 						<State Name="None" ID="{33283521-452A-46DD-891E-F15E47EF2089}"/>
-						<State Name="Goldfish_state_house" ID="{D33B95D1-ECD6-42D4-8AC3-71864A630BE1}"/>
-						<State Name="Goldfish_state_fishBowl" ID="{DDA589F1-F170-4934-9900-6FF8DC193764}"/>
+						<State Name="Goldfish_mx_states_fishBowl" ID="{D33B95D1-ECD6-42D4-8AC3-71864A630BE1}"/>
+						<State Name="Goldfish_mx_states_house" ID="{DDA589F1-F170-4934-9900-6FF8DC193764}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

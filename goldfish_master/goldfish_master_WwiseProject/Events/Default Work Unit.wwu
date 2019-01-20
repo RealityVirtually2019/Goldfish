@@ -17,6 +17,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Goldfish_sfx_underwaterAmb" ID="{BC01EA91-3D14-4BB0-B831-88BD305E269B}">
+					<ChildrenList>
+						<Action Name="" ID="{CE1540E2-6DE3-4A11-A94B-B4A2433E60C1}" ShortID="369420784">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Goldfish_sfx_underwaterAmb" ID="{629351CC-D488-4505-B1EF-C46EF884CD75}" WorkUnitID="{B245141A-92A4-4156-8B69-9FC2AC20AA76}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

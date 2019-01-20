@@ -11,7 +11,9 @@
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="SFX" ID="{E793346E-6D48-4EE8-8200-C3923BA0691F}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Goldfish_sfx_underwaterAmb" ID="{BC01EA91-3D14-4BB0-B831-88BD305E269B}" WorkUnitID="{FC3F97BD-B4B9-465F-996C-0C0DEED1EA47}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

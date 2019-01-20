@@ -15,6 +15,15 @@
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="113842962" Name="Play_Goldfish_sfx_underwaterAmb" ObjectPath="\Events\Default Work Unit\Play_Goldfish_sfx_underwaterAmb"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="448893335" Language="SFX">
+					<ShortName>_SFX\Goldfish_sfx_underwaterAmb\Goldfish_sfx_underwaterAmb.wav</ShortName>
+					<Path>SFX/_SFX/Goldfish_sfx_underwaterAmb/Goldfish_sfx_underwaterAmb_8956FC97.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX">
 			<ObjectPath>Init</ObjectPath>

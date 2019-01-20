@@ -12,7 +12,7 @@
 							<ObjectRef Name="Goldfish_MX_Conversion" ID="{49F84069-2D26-4911-924D-FA1AE677DAD0}" WorkUnitID="{5CD0FEF4-D4C7-4E23-BFA1-D58B073A13CF}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{78E894C8-1AF8-46F4-B4F8-25A6EFB0A400}"/>
+							<ObjectRef Name="MX" ID="{CAD09BD7-0977-4723-BABA-3BC4914EE49F}" WorkUnitID="{78E894C8-1AF8-46F4-B4F8-25A6EFB0A400}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -100,7 +100,16 @@
 								</MusicTransition>
 							</TransitionList>
 							<Playlist>
-								<MusicPlaylistItem Name="" ID="{3F14D3EC-8BDC-4163-9569-3ABABFA38A05}" ShortID="21653579"/>
+								<MusicPlaylistItem Name="" ID="{3F14D3EC-8BDC-4163-9569-3ABABFA38A05}" ShortID="21653579">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{6E843BC2-D43D-4B76-8D63-181F8E1C0E8E}" ShortID="500917716">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Godfish_MX_fishBowl" ID="{38AAC191-0767-4399-A1B7-ABC61D30F258}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="Godfish_MX_house" ID="{276F3743-D412-41BC-B3B2-B439CD9FD9E0}" ShortID="1015153380">
@@ -187,7 +196,16 @@
 								</MusicTransition>
 							</TransitionList>
 							<Playlist>
-								<MusicPlaylistItem Name="" ID="{60734FF1-51F5-4189-B321-8E94B677F86C}" ShortID="430362305"/>
+								<MusicPlaylistItem Name="" ID="{60734FF1-51F5-4189-B321-8E94B677F86C}" ShortID="430362305">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{AE682B90-DC92-404A-B7D2-A096A40CB574}" ShortID="85202739">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Godfish_MX_house" ID="{45DC9205-BBAF-454C-B6C3-1F93ED3F02D8}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
 					</ChildrenList>
@@ -198,30 +216,55 @@
 							</PropertyList>
 							<ChildrenList>
 								<MusicTransition Name="Transition" ID="{EF01E922-8437-47FB-871E-ACF03F15ABC3}">
-									<TransitionInfo/>
+									<PropertyList>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+									</PropertyList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{4677532F-927B-4668-B2AB-33955490DF10}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="1"/>
+													<Property Name="FadeOffset" Type="Real64" Value="1"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{E2D8407B-2F77-4E5F-8B2C-8E2A66EE14E4}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="1"/>
+													<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
 								</MusicTransition>
 							</ChildrenList>
 							<TransitionInfo/>
 						</MusicTransition>
 					</TransitionList>
 					<ArgumentList>
-						<ArgumentRef Name="Goldfish_state" ID="{F56CA5CC-791A-4082-BD97-E7938C5753CF}"/>
+						<ArgumentRef Name="Goldfish_mx_states" ID="{F56CA5CC-791A-4082-BD97-E7938C5753CF}"/>
 					</ArgumentList>
 					<EntryList>
 						<Entry>
 							<Path>
-								<PathElementRef Name="Goldfish_state_fishBowl" ID="{DDA589F1-F170-4934-9900-6FF8DC193764}"/>
+								<PathElementRef Name="Goldfish_mx_states_house" ID="{DDA589F1-F170-4934-9900-6FF8DC193764}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="Godfish_MX_fishBowl" ID="{CF7A2A58-D890-480C-AFB4-5A0CDF06EBC6}" WorkUnitID="{81C72E32-A968-4E7A-8B3C-3F4753B9BF15}" Platform="Linked"/>
+								<AudioNodeRef Name="Godfish_MX_house" ID="{276F3743-D412-41BC-B3B2-B439CD9FD9E0}" WorkUnitID="{81C72E32-A968-4E7A-8B3C-3F4753B9BF15}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 						<Entry>
 							<Path>
-								<PathElementRef Name="Goldfish_state_house" ID="{D33B95D1-ECD6-42D4-8AC3-71864A630BE1}"/>
+								<PathElementRef Name="Goldfish_mx_states_fishBowl" ID="{D33B95D1-ECD6-42D4-8AC3-71864A630BE1}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="Godfish_MX_house" ID="{276F3743-D412-41BC-B3B2-B439CD9FD9E0}" WorkUnitID="{81C72E32-A968-4E7A-8B3C-3F4753B9BF15}" Platform="Linked"/>
+								<AudioNodeRef Name="Godfish_MX_fishBowl" ID="{CF7A2A58-D890-480C-AFB4-5A0CDF06EBC6}" WorkUnitID="{81C72E32-A968-4E7A-8B3C-3F4753B9BF15}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>
