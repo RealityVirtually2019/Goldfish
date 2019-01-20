@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{142C3542-C24B-444B-B97A-AE44A89FB009}" SchemaVersion="89">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{142C3542-C24B-444B-B97A-AE44A89FB009}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="MX" ID="{3615CC8B-318B-4DA0-8115-264736AB0989}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Goldfish_MX" ID="{7C7CA293-474C-47FE-A26E-78072B212615}" WorkUnitID="{FC3F97BD-B4B9-465F-996C-0C0DEED1EA47}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SFX" ID="{E793346E-6D48-4EE8-8200-C3923BA0691F}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
